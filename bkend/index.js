@@ -1,0 +1,17 @@
+let express=require('express')
+let cors=require('cors')
+let mongoose=require('mongoose')
+let route=require('./routes/userroute')
+let applyr=require('./routes/applyroute')
+let adminr=require('./routes/adminroute')
+let app=express()
+app.use(express.json())
+app.use(cors())
+mongoose.connect("mongodb+srv://upendrareddy021:Upendra021%40@cluster0.ukuesvv.mongodb.net/?retryWrites=true&w=majority").then(()=>{
+    console.log('connected to atlas database')
+}).catch((err)=>console.log(err))
+app.use("/",route)
+app.use("/career",applyr)
+app.use("/admin",adminr)
+
+app.listen(5000,()=>console.log("server started"))

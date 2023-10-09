@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 11vh;
+    width: 100%;
+    background-color: pink;
+
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-family: monospace;
+
+}
+.navbar a:hover{
+    color: green;
+}

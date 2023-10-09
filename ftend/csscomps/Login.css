@@ -1,0 +1,93 @@
+.all{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(187, 195, 213);
+    position: relative;
+  }
+  .body{
+    background-color: khaki;
+    width: 40vw;
+    height: 75vh;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,25%);
+  }
+  .login,.signup{
+  width: 100%;
+  height: 100%;
+  
+  }
+  .signup{
+    display: none;
+    line-height: 0%;
+    padding: 0px 5vw;
+    box-sizing: border-box;
+  }
+  .login{
+    box-sizing: border-box;
+    padding: 0px 5vw;
+    width: 100%;
+    
+  }
+  .login input{
+    width: 100%;
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-bottom: black 3px solid;
+    background-color: transparent;
+  }
+  .login button{
+    margin-top: 10vh;
+    width: 100%;
+    height: 7vh;
+    font-size: 2vw;
+    font-weight: 700;
+    border: blueviolet;
+    background-color: blueviolet;
+  }
+  .signup input:not(input[type="checkbox"]){
+    width: 100%;
+    height: 4vh;
+    outline: none;
+    border: none;
+    border-bottom: black 3px solid;
+    background-color: transparent;
+  }
+
+  .signup button{
+    margin-top: 3vh;
+    width: 100%;
+    height: 7vh;
+    font-size: 2vw;
+    font-weight: 700;
+    border: blueviolet;
+    background-color: blueviolet;
+  }
+  .signup button:hover,.login button:hover{
+    box-shadow: 0px 0px 3px 2px black;
+  }
+
+  .cbox{
+    display: flex;
+  }
+  .cbox p{
+    font-size: 10px;
+  }
+  .btns{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .btns button{
+    width: 50%;
+    height: 100%;
+    font-size: 3.9vh;
+    font-weight: 600;
+    font-family: monospace;
+    
+    border: none;
+  }

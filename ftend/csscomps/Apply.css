@@ -1,0 +1,28 @@
+.main{
+    margin-left: 5vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main input{
+    width: 30vw;
+    height: 3vh;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid palevioletred;
+
+}
+.main button{
+    font-size: 22px;
+    margin: 2vh;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 2vh;
+    background-color: pink;
+    font-family: monospace;
+    font-weight: 600;
+}
+.main p{
+    font-size: 22px;
+}
